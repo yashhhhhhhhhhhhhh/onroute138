@@ -39,3 +39,44 @@ body {
 .NavbarItems li:hover {
   background-color: #893823;
 }
+
+.order-box {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid black;
+  max-width: 300px;
+  color: black;
+}
+
+h2 {
+  color: #000000;
+}
+
+.order {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.status {
+  font-weight: bold;
+}
+
+.in-progress {
+  color: darkgoldenrod;
+}
+
+.complete {
+  color: darkgreen;
+}
+
+br {
+  display: block;
+  content: "";
+  margin: 15px 0;
+}
+
+.order-box a {
+  text-decoration: none;
+}
