@@ -1,74 +1,41 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
-
-.Navbar {
+body {
+  margin: 0;
+  padding: 0;
   background-color: #893823;
-  overflow: hidden;
-  display: flex;
-  padding: 10px 20px;
-  align-items: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1000;
+  color: white;
 }
 
-.Navbar a {
+.NavBar {
+  height: 3.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   color: white;
+  background-color: #672a1b;
+}
+
+.NavLeftSide {
+  font-size: 1.5rem;
+  margin: auto 1rem;
+}
+
+.NavbarItems ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.NavbarItems ul li {
+  list-style: none;
+}
+
+.NavbarItems ul li a {
   text-decoration: none;
-  padding: 14px 20px;
+  color: white;
+  padding: 1rem;
   display: block;
 }
 
-.Navbar a:hover {
-  background-color: #6e2b1a;
-  color: white;
-}
-
-.Dropdown {
-  right: 0;
-  left: 1;
-  overflow: hidden;
-  position: absolute;
+.NavbarItems li:hover {
+  background-color: #893823;
 }
