@@ -10,14 +10,14 @@ export default function HomePage() {
         <h2>Order History</h2>
         <p className="order">
           Order 1506: 2 Flatbeds:{"  "}
-          <a href="" className="status in-progress">
+          <a href="" className="in-progress">
             IN PROGRESS
           </a>
         </p>
         <br></br>
         <p className="order">
           Order 1505: 3 Flatbeds:{"  "}
-          <a href="" className="status complete">
+          <a href="" className="complete">
             COMPLETE
           </a>
         </p>

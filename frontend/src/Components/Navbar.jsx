@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <div>
       <nav className="NavBar">
-        <div className="NavLeftSide">ONRoute 138</div>
+        <div className="NavLeftSide">ONRoute 138 </div>
         <div className="NavLeftSide"> Hello Admin</div>
         <div className="NavbarItems">
           <ul>
