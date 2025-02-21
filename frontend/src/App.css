@@ -43,11 +43,15 @@ body {
 .order-box {
   background: white;
   padding: 20px;
-  border-radius: 10px;
-  border: 2px solid black;
-  max-width: 300px;
+  border-radius: 15px;
+  border: 3px solid black;
   color: black;
-  margin: 15px;
+  position: absolute;
+  top: 220px;
+  left: 15px;
+  width: 625px;
+  height: 450px;
+  box-sizing: border-box;
 }
 
 h2 {
@@ -76,4 +80,42 @@ br {
 
 .order-box a {
   text-decoration: none;
+}
+
+.OrderHeader {
+  text-align: center;
+}
+
+.OrderHeader h2 {
+  color: white;
+}
+
+.order-box-header {
+  text-align: center;
+}
+
+.order-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+  margin: 10px 0;
+}
+
+.item-label {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.item-value {
+  color: rgb(0, 0, 0);
+}
+
+.order-box br {
+  display: block;
+  content: "";
+  margin: 40px 0;
+}
+
+.OrderHeader {
+  font-size: 20px;
 }

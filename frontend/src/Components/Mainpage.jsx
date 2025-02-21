@@ -7,7 +7,9 @@ export default function HomePage() {
       <h1>Hello World</h1>
 
       <div className="order-box">
-        <h2>Order History</h2>
+        <div className="order-box-header">
+          <h1>Order History</h1>
+        </div>
         <p className="order">
           Order 1506: 2 Flatbeds:{"  "}
           <a href="" className="in-progress">
