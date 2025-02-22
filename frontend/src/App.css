@@ -41,7 +41,7 @@ body {
 }
 
 .order-box {
-  background: white;
+  background: rgb(202, 202, 202);
   padding: 20px;
   border-radius: 15px;
   border: 3px solid black;
@@ -118,4 +118,24 @@ br {
 
 .OrderHeader {
   font-size: 20px;
+}
+
+.new-order-button {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgb(202, 202, 202);
+  color: rgb(0, 0, 0);
+  border: 2px solid black;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 200px;
+  height: 100px;
+}
+
+.new-order-button:hover {
+  background-color: #929292;
 }

@@ -1,12 +1,14 @@
 import Navbar from "./Navbar";
+import "../App.css";
 
-export default function Orderpage() {
+export default function OrderPage() {
   return (
+    // Backend Person: Add Code to make return button Work
     <>
       <Navbar />
       <h4>Hello Order Page</h4>
       <div className="OrderHeader">
-        <h2> Order (OrderNumber) </h2>
+        <h2> Order #(OrderNumber) </h2>
       </div>
       <div className="order-box">
         <div className="order-box-header">

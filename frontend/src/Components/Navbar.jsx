@@ -20,3 +20,6 @@ export default function Navbar() {
     </div>
   );
 }
+
+//Backend Person: make it so where it sayd "Hello Admin", it displays the username of the logged in account
+//Backend Person: Make the Home and Logout Buttons Work, Home should go to (Mainpage.jsx) and Logout should just logout
